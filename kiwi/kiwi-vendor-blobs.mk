@@ -35,8 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/audio_para_version:system/etc/sound_param/kiw/audio_para_version \
-    vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/mixer_paths.xml:system/etc/sound_param/kiw/mixer_paths.xml \
     vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/Headset_cal.acdb:system/etc/sound_param/kiw/Headset_cal.acdb \
     vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/Bluetooth_cal.acdb:system/etc/sound_param/kiw/Bluetooth_cal.acdb \
     vendor/huawei/kiwi/proprietary/etc/sound_param/kiw/Speaker_cal.acdb:system/etc/sound_param/kiw/Speaker_cal.acdb \
@@ -918,7 +916,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/huawei/kiwi/proprietary/lib64/hw/fingerprintd.ex.so:system/lib64/hw/fingerprintd.ex.so \
-    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprint.msm8916.so:system/lib64/hw/fingerprint.msm8916.so \
+    vendor/huawei/kiwi/proprietary/lib64/hw/fingerprint.vendor.msm8916.so:system/lib64/hw/fingerprint.vendor.msm8916.so \
     vendor/huawei/kiwi/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/kiwi/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
     vendor/huawei/kiwi/proprietary/bin/signinfolistener:system/bin/signinfolistener \
@@ -1058,9 +1056,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/huawei/kiwi/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/huawei/kiwi/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/huawei/kiwi/proprietary//sbin/huawei_version:root//sbin/huawei_version \
-    vendor/huawei/kiwi/proprietary//sbin/libqmi_oem_main:root//sbin/libqmi_oem_main \
-    vendor/huawei/kiwi/proprietary//sbin/rmt_oeminfo:root//sbin/rmt_oeminfo \
+    vendor/huawei/kiwi/proprietary/bin/huawei_version:system/bin/huawei_version \
+    vendor/huawei/kiwi/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
+    vendor/huawei/kiwi/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/kiwi/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/huawei/kiwi/proprietary/lib/libdmd.so:system/lib/libdmd.so \
     vendor/huawei/kiwi/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
