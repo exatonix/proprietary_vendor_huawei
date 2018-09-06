@@ -1,2 +1,5 @@
 [submodule "berkeley"]
 	url = https://github.com/BigTopKrazies/vendor_huawei_berkeley
+[submodule "kirin970-common"]
+	path = kirin970-common
+	url = https://github.com/berkeley-dev/proprietary_vendor_huawei_kirin970-common
